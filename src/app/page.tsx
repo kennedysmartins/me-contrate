@@ -7,7 +7,7 @@ export default function Home() {
     className="flex flex-col items-center py-[40dvh] px-10 h-[100dvh]"
     >
       <div className="flex items-center justify-center">
-        <h1 className="text-3xl py-5">
+        <h1 className="lg:text-3xl text-lg py-5">
           Gostaria de me contratar?
         </h1>
       </div>
