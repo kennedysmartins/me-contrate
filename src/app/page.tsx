@@ -1,6 +1,19 @@
 import React from "react";
 import MainButton from "@/components/MainButton";
 
+export async function generateMetadata() {
+    return {
+      openGraph: {
+        title: "Me contrate",
+        description: "Clique aqui e veja se é capaz de não me contratar!",
+        siteName: "Me contrate",
+        images: [{ url: `${process.env.NEXT_PUBLIC_GITHUB_PROFILE}.png` }],
+        locale: "pt_BR",
+        type: "website",
+      },
+    }
+  }
+
 export default function Home() {
   return (
     <main
