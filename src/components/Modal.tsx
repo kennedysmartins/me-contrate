@@ -1,7 +1,11 @@
 import Image from 'next/image';
-import React from 'react';
+import React, { ReactNode, MouseEventHandler } from 'react';
 
-const Modal = ({ closeModal }) => {
+interface ModalProps {
+  closeModal: MouseEventHandler<HTMLButtonElement>;
+}
+
+const Modal: React.FC<ModalProps> = ({ closeModal }) => {
   return (
     <div className="fixed inset-0 bg-black text-white flex items-center justify-center z-50"
     style={{ animation: 'slide-up 0.5s ease-out' }}>
