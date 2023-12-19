@@ -4,12 +4,18 @@ import MainButton from "@/components/MainButton";
 export default function Home() {
   return (
     <main
-    className="flex flex-col items-center py-[40dvh] px-10 h-[100dvh]"
+    className="bg-gray-50 flex flex-col items-center py-[40dvh] px-10 h-[100dvh]"
     >
+        <div className="relative flex">
+          <div className="absolute top-0 left-6 lg:w-72 lg:h-72 w-32 h-32 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+          <div className="absolute top-0 -right-4 lg:w-72 lg:h-72 w-32 h-32 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+          <div className="absolute -bottom-20 -left-20 lg:w-72 lg:h-72 w-32 h-32  bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+        </div>
       <div className="flex items-center justify-center">
-        <h1 className="lg:text-3xl text-lg py-5">
+      <h1 className="lg:text-3xl text-lg font-bold py-5 z-30 text-gray-800">
           Gostaria de me contratar?
         </h1>
+        
       </div>
       <div className="flex gap-2">
         <MainButton move={false} title={"Sim"} />
