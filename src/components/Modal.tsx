@@ -22,7 +22,7 @@ const Modal: React.FC<ModalProps> = ({ closeModal }) => {
             priority
           />
         </picture>
-        <h2 className="text-4xl items-center justify-center">
+        <h2 className="md:text-4xl items-center justify-center text-xl">
           Você com certeza fez uma ótima escolha! 🤩
         </h2>
         <div className="flex gap-4 my-4">
