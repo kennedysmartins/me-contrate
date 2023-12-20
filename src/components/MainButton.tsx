@@ -85,7 +85,7 @@ const MainButton: React.FC<ButtonProps> = ({ move = false, title }) => {
         onClick={handleButtonClick}
       >
         <a
-          href="#_"
+          href="#"
           className="relative inline-flex items-center justify-center p-4 px-8 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-purple-500 z-40"
         >
           <span className="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700"></span>
