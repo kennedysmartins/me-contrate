@@ -15,6 +15,7 @@ const config: Config = {
       },
       animation: {
         blob: "blob 4s infinite",
+        slideup: "slideup 0.5s ease-out",
       },
       keyframes: {
         blob: {
@@ -29,6 +30,14 @@ const config: Config = {
           },
           "100%": {
             transform: "translate(0px, 0px) scale(1)",
+          },
+        },
+        slideup: {
+          "0%": {
+            transform: "translateY(100%)",
+          },
+          "100%": {
+            transform: "translateY(0)",
           },
         }
       },
