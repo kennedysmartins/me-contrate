@@ -15,7 +15,7 @@ const Modal: React.FC<ModalProps> = ({ closeModal }) => {
         {/* Conteúdo do modal */}
         <picture className="rounded-full my-5 overflow-hidden">
           <Image
-            src={`${process.env.NEXT_PUBLIC_IMAGE}`}
+            src={process.env.NEXT_PUBLIC_IMAGE || `${process.env.NEXT_PUBLIC_GITHUB_PROFILE}.png` }
             width="200"
             height="200"
             alt={`${process.env.NEXT_PUBLIC_FULL_NAME}`}
