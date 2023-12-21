@@ -47,7 +47,6 @@ O componente `Modal` exibe uma janela modal quando o usuário clica no botão "S
     npm run dev
    ```
 
-
 ### Contribuição 🤝
 
 Sinta-se à vontade para contribuir para o projeto "Me Contrate". Se você encontrou bugs, tem sugestões ou deseja adicionar novos recursos, abra uma issue ou envie uma pull request. Todas as contribuições são bem-vindas!
