@@ -6,6 +6,7 @@ Bem-vindo ao projeto "Me Contrate"! Este é um projeto Next.js desenvolvido para
 
 ## Preview 🌐
 [![Preview do Site](./.github/preview.gif)](https://me-contrate.vercel.app/)
+https://me-contrate.vercel.app/ 🔗
 
 ## Estrutura do Projeto 🏗️
 
