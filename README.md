@@ -4,6 +4,9 @@
 
 Bem-vindo ao projeto "Me Contrate"! Este é um projeto Next.js desenvolvido para criar uma interação divertida e única com os visitantes do seu site. A ideia é envolver os usuários com a pergunta "Gostaria de me contratar?" e proporcionar uma experiência interativa ao clicar nos botões "Sim" e "Não".
 
+## Preview 🌐
+[![Preview do Site](./.github/preview.gif)](https://me-contrate.vercel.app/)
+
 ## Estrutura do Projeto 🏗️
 
 ### Arquivo `layout.tsx` 🖥️
