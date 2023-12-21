@@ -5,7 +5,7 @@
 Bem-vindo ao projeto "Me Contrate"! Este é um projeto Next.js baseado na interação divertida e única inspirada em um pequeno jogo de um projeto anterior chamado "Quer Namorar Comigo". A ideia é envolver os usuários com a pergunta "Gostaria de me contratar?" e proporcionar uma experiência interativa ao clicar nos botões "Sim" e "Não".
 
 ## Preview 🌐
-[![Preview do Site](./.github/preview.gif)](https://me-contrate.vercel.app/){:target="_blank"}
+[![Preview do Site](./.github/preview.gif)](https://me-contrate.vercel.app/)
 
 [Visite o Site](https://me-contrate.vercel.app/) 🔗
 
