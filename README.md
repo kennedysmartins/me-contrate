@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto Next.js "Me Contrate" 💼
 
-## Getting Started
+## Descrição 📝
 
-First, run the development server:
+Bem-vindo ao projeto "Me Contrate"! Este é um projeto Next.js desenvolvido para criar uma interação divertida e única com os visitantes do seu site. A ideia é envolver os usuários com a pergunta "Gostaria de me contratar?" e proporcionar uma experiência interativa ao clicar nos botões "Sim" e "Não".
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Estrutura do Projeto 🏗️
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Arquivo `layout.tsx` 🖥️
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Este arquivo contém o componente `RootLayout`, que define o layout básico da aplicação. Ele utiliza a fonte "Inter" do Google Fonts e configura metadados, como título e descrição, para melhorar a acessibilidade e a indexação nos motores de busca.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Arquivo `page.tsx` 📄
 
-## Learn More
+O componente `Home` representa a página principal do projeto. Ele exibe a pergunta principal e botões interativos para os usuários responderem. Além disso, a função `generateMetadata` é responsável por fornecer metadados específicos da página para otimização de SEO.
 
-To learn more about Next.js, take a look at the following resources:
+### Componente `MainButton.tsx` 🎉
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+O componente `MainButton` é responsável por criar os botões interativos "Sim" e "Não". Ele incorpora um efeito de movimento divertido e um confete ao clicar no botão "Sim". O código utiliza o pacote `canvas-confetti` para criar esse efeito visual atraente.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Componente `Modal.tsx` 🌐
 
-## Deploy on Vercel
+O componente `Modal` exibe uma janela modal quando o usuário clica no botão "Sim". Esta janela contém uma mensagem de agradecimento, uma imagem e links para os perfis do GitHub e LinkedIn. O modal é estilizado para criar uma experiência envolvente para o usuário.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Como Iniciar 🚀
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone o Repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/seu-projeto.git
+   ```
+2. **Instale as Dependências:**
+    ```bash
+    cd me-contrate
+    npm install
+   ```
+
+3. **Configure o arquivo .env:**
+    ```bash
+    NEXT_PUBLIC_GITHUB_PROFILE="https://github.com/YOURGITHUB"
+    NEXT_PUBLIC_LINKEDIN_PROFILE="https://linkedin.com/in/YOURLINKEDIN"
+    NEXT_PUBLIC_FULL_NAME="YOUR NAME"
+    NEXT_PUBLIC_IMAGE="URL IMAGE MODAL"
+
+   ```
+4. **Inicie o Servidor de Desenvolvimento:**
+    ```bash
+    npm run dev
+   ```
+
+
+### Contribuição 🤝
+
+Sinta-se à vontade para contribuir para o projeto "Me Contrate". Se você encontrou bugs, tem sugestões ou deseja adicionar novos recursos, abra uma issue ou envie uma pull request. Todas as contribuições são bem-vindas!
+
+### Autor 👨‍💻
+
+Este projeto foi desenvolvido por Kennedy Martins.
+
+### Agradecimentos 🙌
+
+Agradecemos por considerar contribuir para este projeto! Dê uma estrela no GitHub se você gostou da experiência "Me Contrate". 🚀
+
