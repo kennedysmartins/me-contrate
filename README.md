@@ -26,7 +26,7 @@ O componente `Modal` exibe uma janela modal quando o usuário clica no botão "S
 
 1. **Clone o Repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/seu-projeto.git
+   git clone https://github.com/kennedysmartins/me-contrate.git
    ```
 2. **Instale as Dependências:**
     ```bash
