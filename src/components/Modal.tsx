@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { ReactNode, MouseEventHandler } from "react";
+import React, { MouseEventHandler } from "react";
 import { FaGithub, FaLinkedin  } from "react-icons/fa";
 
 

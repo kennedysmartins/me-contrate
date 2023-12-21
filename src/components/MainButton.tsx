@@ -23,9 +23,6 @@ const MainButton: React.FC<ButtonProps> = ({ move = false, title }) => {
       if (buttonRef.current) {
         const rect = buttonRef.current.getBoundingClientRect();
         setButtonPosition({ x: rect.left, y: rect.top });
-  
-        // Utilize a função de retorno para obter o valor atualizado imediatamente
-
       }
     };
   

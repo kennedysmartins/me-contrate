@@ -15,6 +15,7 @@ export async function generateMetadata() {
   }
 
 export default function Home() {
+  console.log("Que bom que você abriu o console, você já considerou dar uma estrela para esse projeto? Eu agradeceria muuuito! https://github.com/kennedysmartins/me-contrate")
   return (
     <main
     className="bg-gray-50 flex flex-col items-center py-[40dvh] px-10 h-[100dvh]"
