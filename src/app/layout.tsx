@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: `Me contrate - ${process.env.NEXT_PUBLIC_FULL_NAME}`,
+  title: `Me contrate`,
   description: 'Clique aqui e veja se é capaz de não me contratar!',
 }
 
