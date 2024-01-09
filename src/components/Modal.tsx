@@ -30,7 +30,7 @@ const Modal: React.FC<ModalProps> = ({ closeModal, github, linkedin }) => {
           />)}
   
         </picture>
-        <h2 className="md:text-4xl items-center justify-center text-xl">
+        <h2 className="md:text-4xl items-center justify-center text-center text-xl">
           Você com certeza fez uma ótima escolha! 🤩
         </h2>
         <h3 className="md:text-2xl items-center justify-center text-lg mt-2  text-gray-400 opacity-0 animation-delay-1500 animate-fadeIn">
