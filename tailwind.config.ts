@@ -15,7 +15,8 @@ const config: Config = {
       },
       animation: {
         blob: "blob 4s infinite",
-        slideup: "slideup 0.5s ease-out",
+        slideup: "slideup  0.5s ease-out forwards",
+        fadeIn: "fadeIn 1.5s ease-in forwards",
       },
       keyframes: {
         blob: {
@@ -39,10 +40,19 @@ const config: Config = {
           "100%": {
             transform: "translateY(0)",
           },
-        }
+        },
+        fadeIn: {
+          "0%": {
+            opacity: "0",
+          },
+          "100%": {
+            opacity: "1",
+          },
+        },
       },
     },
   },
   plugins: [],
-}
-export default config
+};
+
+export default config;

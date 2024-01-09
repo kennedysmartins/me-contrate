@@ -19,6 +19,8 @@ const MainButton: React.FC<ButtonProps> = ({ move = false, title, github, linked
   } | null>(null);
   const [isMouseOverLocked, setIsMouseOverLocked] = useState(false);
   const buttonRef = useRef<HTMLDivElement | null>(null);
+  console.log("Que bom que você abriu o console, você já considerou dar uma estrela para esse projeto? Eu agradeceria muuuito! https://github.com/kennedysmartins/me-contrate")
+
 
   useEffect(() => {
     const getInitialPosition = () => {
@@ -64,7 +66,7 @@ const MainButton: React.FC<ButtonProps> = ({ move = false, title, github, linked
 
   const handleModalClose = () => {
     window.location.reload();
-    setShowModal(false);
+    // setShowModal(false);
   };
 
 
@@ -74,7 +76,7 @@ const MainButton: React.FC<ButtonProps> = ({ move = false, title, github, linked
       <div
         ref={buttonRef as React.RefObject<HTMLDivElement>}
         onMouseOver={handleButtonMouseOver}
-        className={`rounded text-black px-5 py-2 transition-all duration-500 ease-in-out select-none outline-none ${
+        className={`rounded text-black px-5 py-2 transition-all duration-500 ease-in-out select-none outline-none animate-fadeIn ${
           buttonPosition ? "absolute" : "static"
         }`}
         style={{
