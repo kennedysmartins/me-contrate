@@ -7,7 +7,18 @@ Bem-vindo ao projeto "Me Contrate"! Este é um projeto Next.js baseado na intera
 ## Preview 🌐
 [![Preview do Site](./.github/preview.gif)](https://me-contrate.vercel.app/)
 
-[Visite o Site](https://me-contrate.vercel.app/) 🔗
+[Visite o Site](https://me-contrate.vercel.app/me/kennedysmartins) 🔗
+
+## Como Usar 🚀
+
+Para utilizar o projeto, siga estas etapas:
+
+ **Escolha um Link Personalizado:**
+   - Para LinkedIn: [https://me-contrate.vercel.app/in/SEU_USERNAME](https://me-contrate.vercel.app/in/SEU_USERNAME)
+   - Para GitHub: [https://me-contrate.vercel.app/git/SEU_USERNAME](https://me-contrate.vercel.app/git/SEU_USERNAME)
+   - Se os usernames do GitHub e do LinkedIn forem os mesmos, você pode usar: [https://me-contrate.vercel.app/me/SEU_USERNAME](https://me-contrate.vercel.app/me/SEU_USERNAME)
+
+   Substitua "SEU_USERNAME" pelo seu nome de usuário real.
 
 ## Estrutura do Projeto 🏗️
 
@@ -26,31 +37,6 @@ O componente `MainButton` é responsável por criar os botões interativos "Sim"
 ### Componente `Modal.tsx` 🌐
 
 O componente `Modal` exibe uma janela modal quando o usuário clica no botão "Sim". Esta janela contém uma mensagem de agradecimento, uma imagem e links para os perfis do GitHub e LinkedIn. O modal é estilizado para criar uma experiência envolvente para o usuário.
-
-## Como Iniciar 🚀
-
-1. **Clone o Repositório:**
-   ```bash
-   git clone https://github.com/kennedysmartins/me-contrate.git
-   ```
-2. **Instale as Dependências:**
-    ```bash
-    cd me-contrate
-    npm install
-   ```
-
-3. **Configure o arquivo .env:**
-    ```bash
-    NEXT_PUBLIC_GITHUB_PROFILE="https://github.com/YOURGITHUB"
-    NEXT_PUBLIC_LINKEDIN_PROFILE="https://linkedin.com/in/YOURLINKEDIN"
-    NEXT_PUBLIC_FULL_NAME="YOUR NAME"
-    NEXT_PUBLIC_IMAGE="URL IMAGE MODAL"
-
-   ```
-4. **Inicie o Servidor de Desenvolvimento:**
-    ```bash
-    npm run dev
-   ```
 
 ### Contribuição 🤝
 
