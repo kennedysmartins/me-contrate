@@ -38,7 +38,7 @@ const MainButton: React.FC<ButtonProps> = ({ move = false, title, github, linked
       handleButtonMove()
     }
   };
-
+  
   const handleButtonClick = () => {
     if (title === "Sim") {
       confetti({
@@ -47,7 +47,11 @@ const MainButton: React.FC<ButtonProps> = ({ move = false, title, github, linked
         origin: { y: 0.5 },
       });
       setTimeout(() => {
+        document.querySelectorAll("button").forEach((button) => {
+          button.style.display = "none";
+        })
         setShowModal(true);
+
       }, 300);
     } else {
       handleButtonMove()
