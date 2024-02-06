@@ -13,7 +13,7 @@ const Modal: React.FC<ModalProps> = ({ closeModal, github, linkedin }) => {
   return (
     <div className="fixed inset-0 bg-black text-white flex items-center justify-center z-[100] animate-slideup">
 
-      <div className="absolute bg-black text-white flex flex-col items-center justify-center p-10 opacity-0 animation-delay-1000 animate-fadeIn z-50">
+      <div className="absolute bg-black text-white flex flex-col items-center justify-center p-10 opacity-0 animation-delay-1000 animate-fadeIn z-[100]">
         {/* Conteúdo do modal */}
         <picture className="rounded-full my-5 overflow-hidden">
           {github ? (<Image
