@@ -19,7 +19,7 @@ export async function generateMetadata({ params: { username } }: Params) {
 
 export default function mePage({ params: { username } }: Params) {
   return (
-    <main className="bg-gray-50 flex flex-col items-center py-[40dvh] px-10 h-[100dvh]">
+    <main className="bg-gray-50 flex flex-col items-center py-[40dvh] px-10 h-[100dvh] z-30">
     <div className="relative flex opacity-0 animation-delay-1000 animate-fadeIn">
       <div className="absolute top-0 left-6 lg:w-72 lg:h-72 w-32 h-32 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animation-delay-1000  animate-blob"></div>
       <div className="absolute top-0 -right-4 lg:w-72 lg:h-72 w-32 h-32 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob  animation-delay-3000 "></div>
