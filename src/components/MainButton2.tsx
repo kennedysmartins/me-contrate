@@ -81,7 +81,7 @@ const MainButton2: React.FC<ButtonProps> = ({
   return (
     <>
       <button
-        className={`bg-transparent text-transparent drop-shadow-2xl text-2xl md:px-10 md:py-4 px-5 py-2 md:rounded-2xl rounded-lg bg-gradient-to-b from-white/80 to-white/20 text-gray-900 dark:text-gray-900 font-semibold border-none ${
+        className={`bg-transparent text-transparent drop-shadow-2xl md:text-2xl text-xl md:px-10 md:py-4 px-5 py-2 md:rounded-2xl rounded-lg bg-gradient-to-b from-white/80 to-white/20 text-gray-900 dark:text-gray-900 md:font-semibold font-medium border-none ${
           buttonPosition ? "absolute" : "static"
         } transition-all duration-300`}
         ref={buttonRef as React.RefObject<HTMLButtonElement>}
