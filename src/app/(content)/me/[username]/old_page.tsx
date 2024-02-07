@@ -30,6 +30,7 @@ export default function mePage({ params: { username } }: Params) {
           Gostaria de me contratar?
         </h1>
       </div>
+      
       <div className="flex gap-2">
         <div className="opacity-0 animation-delay-1000 animate-fadeIn">
           <MainButton
