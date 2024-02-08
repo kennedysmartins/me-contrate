@@ -94,10 +94,11 @@
 }
 
 html {
-  /* width: 100dvh; */
-  height: 100vh;
+  width: 100vh;
+  height: calc(100vh + env(safe-area-inset-bottom));
   overflow: hidden;
 }
+
 
 @layer base {
   * {
