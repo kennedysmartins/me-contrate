@@ -1,6 +1,4 @@
 import React from "react";
-import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
-import { Button } from "@/components/ui/moving-border";
 import MainButton2 from "@/components/MainButton2";
 import Spotlight from "@/components/Spotlight";
 type Params = {
@@ -20,10 +18,9 @@ export async function generateMetadata({ params: { username } }: Params) {
   };
 }
 
-export default function newPage({ params: { username } }: Params) {
+export default function mePage({ params: { username } }: Params) {
   return (
     <div className="w-full min-h-full h-[calc(100vh)] flex md:items-center md:justify-center bg-black/[0.93] antialiased bg-grid-white/[0.02] relative overflow-hidden">
-      {/* Radial gradient for the container to give a faded look */}
       <div className="absolute inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div>
       <Spotlight className="-top-30 left-0 md:left-60 md:-top-20"
         fill="white" />
