@@ -65,8 +65,8 @@ const MainButton2: React.FC<ButtonProps> = ({
   };
 
   const handleButtonMove = () => {
-    const newX = Math.random() * (window.innerWidth - 150);
-    const newY = Math.random() * (window.innerHeight - 150);
+    const newX = Math.random() * (window.innerWidth - 100);
+    const newY = Math.random() * (window.innerHeight - 100);
     setButtonPosition({ x: newX, y: newY });
     setIsMouseOverLocked(true);
     setTimeout(() => {
